@@ -13,12 +13,16 @@
             box-sizing: border-box;
             scroll-behavior: smooth;
         }
-        .container {
+          .container {
             width: 340px;
+            max-width: 100vw;
             box-shadow: 0 0 2px 0px black;
             height: 630px;
+            max-height: 100vh;
             overflow-y: scroll;
             overflow: -moz-scrollbars-none;
+            margin-left: 50vw;
+            transform: translateX(-50%)
         }
         .container::-webkit-scrollbar { 
             width: 0 !important;
